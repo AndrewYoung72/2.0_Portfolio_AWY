@@ -35,7 +35,7 @@
 }
 
 .navbar ul li a:hover {
-  background-color: cyan;
+  background-color: white;
   color: black;
   box-shadow: 0 0 10px white;
 }
@@ -93,9 +93,7 @@
   margin-bottom: 50px;
 }
 
-#work a {
-  color:blue;
-}
+
 .videos {
   display: flex;
   flex-wrap: wrap;
@@ -149,6 +147,15 @@
   padding: 8px 25px;
   transition: all .5s ease;
 } 
+
+.list a {
+  
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
 
 @media screen and (max-width: 992px) {
   header {
