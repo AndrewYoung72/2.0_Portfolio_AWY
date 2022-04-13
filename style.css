@@ -23,7 +23,6 @@
 
 .navbar ul li {
   font-family: serif;
-
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -43,7 +42,7 @@
 #about-me {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
@@ -54,8 +53,8 @@
 }
 
 #picture img {
-  width: 350px;
-  height: 350px;
+  width: 200px;
+  height: 200px;
 }
 
 
@@ -74,14 +73,20 @@
   color: whitesmoke;
 }
 
-.head {
+.main {
   font-family: serif;
-  color: whitesmoke;
-  font-size: 3rem;
+  color: white;
+  font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
   margin: 30px 0px;
 } 
+
+.main .head  {
+  font-family: serif;
+  color: rgb(157, 191, 229);
+  font-size: 2.5rem;
+}
 
 #work {
   display: flex;
@@ -93,6 +98,10 @@
   margin-bottom: 50px;
 }
 
+#work .head {
+  color: rgb(157, 191, 229);
+  font-size: 2.5rem;
+}
 
 .videos {
   display: flex;
@@ -116,10 +125,14 @@
   flex-direction: column;
   box-sizing: border-box;
   background-color: rgba(0, 0, 0, 0.5);
-  color: whitesmoke;
   align-items: center;
   padding: 20px;
   margin-bottom: 50px;
+}
+
+#Resume .head-2 {
+  color: rgb(157, 191, 229);
+  font-size: 2.5rem;
 }
 
 #contact {
@@ -137,8 +150,13 @@
   display: flex;
   list-style: none;
   margin: 20px 0; 
-
 }
+
+.contact-list .head {
+  color: rgb(157, 191, 229);
+  font-size: 2.5rem;
+}
+
 .contact-list ul li {
   font-family: serif;
   font-size: 1.5rem;
@@ -163,7 +181,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 600px) {
   nav {
     background-color: #bb8588;
   }
