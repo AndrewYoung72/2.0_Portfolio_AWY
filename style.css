@@ -9,7 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(39, 39, 150);
+  background-image: url(img/headerbar.JPG);
+  height: 200px;
   position: sticky;
   top: 0;
 }
@@ -22,12 +23,13 @@
 
 .navbar ul li {
   font-family: serif;
+
   font-size: 1.5rem;
   font-weight: bold;
 }
 
 .navbar ul li a {
-  color: white;
+  color: rgba(0, 0, 0, 0.5);
   padding: 8px 25px;
   transition: all .5s ease;
 }
@@ -52,8 +54,8 @@
 }
 
 #picture img {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 
@@ -91,6 +93,9 @@
   margin-bottom: 50px;
 }
 
+#work a {
+  color:blue;
+}
 .videos {
   display: flex;
   flex-wrap: wrap;
