@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 39, 150);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: cyan;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+
+#about-me {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#picture {
+  display: flex;
+}
+
+#picture img {
+  width: 400px;
+  height: 400px;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+.main h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: whitesmoke;
+}
+.main p {
+  color: whitesmoke;
+}
+
+.head {
+  font-family: serif;
+  color: whitesmoke;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px;
+} 
+
+#work {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+
+.videos img {
+  width: 360px;
+  height: 240px;
+  margin: 10px;
+}
+#project {
+  width: 400px;
+  height: 320px;
+}
+
+#Resume {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  align-items: center;
+  padding: 20px;
+  margin-bottom:20px ;
+}
+
+.contact-list {
+  display: flex;
+  list-style: none;
+  margin: 20px 0; 
+
+}
+.contact-list ul li {
+  font-family: serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+} 
+
+@media screen and (max-width: 992px) {
+  header {
+    background-color: whitesmoke;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    background-color: #bb8588;
+  }
+}
