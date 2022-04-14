@@ -28,7 +28,7 @@
 }
 
 .navbar ul li a {
-  color: rgba(1, 2, 8, 0.5);
+  color: rgba(0, 0, 0, 0.945);
   padding: 8px 25px;
   transition: all .5s ease;
 }
