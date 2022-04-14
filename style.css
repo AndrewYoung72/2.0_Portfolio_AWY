@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   background-image: url(img/headerbar.JPG);
-  height: 200px;
+  height: 250px;
   position: sticky;
   top: 0;
 }
@@ -28,7 +28,7 @@
 }
 
 .navbar ul li a {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(1, 2, 8, 0.5);
   padding: 8px 25px;
   transition: all .5s ease;
 }
@@ -158,6 +158,7 @@
 }
 
 .contact-list ul li {
+  display: flex;
   font-family: serif;
   font-size: 1.5rem;
   font-weight: bold;
