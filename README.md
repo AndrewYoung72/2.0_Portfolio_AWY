@@ -7,3 +7,4 @@ The purpose of this assignment was to improve upon our previous portfolio assign
 
 ## Description
 
+My portfolio is pretty straight forward. At the top I have navagation links inside an image of the Rocky Mountains with a sticky postion that allows the page to scroll under the header. The links have a hover background with a box shadow and take the user to the selected section when clicked. In the work section I have displayed our team project along with to of my better assignments to date.
