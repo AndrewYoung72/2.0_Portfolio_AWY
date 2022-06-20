@@ -1,7 +1,7 @@
 # 2.0_Portfolio_AWY
  https://andrewyoung72.github.io/2.0_Portfolio_AWY/
 
-
+![resumeScreenShot](https://user-images.githubusercontent.com/97897877/174660090-e24258f6-5d9b-4352-bf23-f3990fe2042e.png)
  
 
 ## Purpose
