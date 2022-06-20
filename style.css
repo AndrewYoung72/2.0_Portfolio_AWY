@@ -110,6 +110,8 @@
   margin-bottom: 50px;
 }
 
+
+
 #work .head-1 {
   color: rgb(157, 191, 229);
   font-size: 2.5rem;
@@ -123,7 +125,6 @@
 }
 
 .videos img {
-  width: 360px;
   height: 240px;
   margin: 10px;
 }
@@ -147,18 +148,15 @@
   padding: 20px;
   margin-bottom: 50px;
 }
-#Resume div {
-  /* display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  border-style: outset;
-  padding: 20px;
-  margin-bottom: 50px; */
-}
 
 #Resume .head-2 {
   color: rgb(157, 191, 229);
   font-size: 2.5rem;
+}
+
+#Resume img {
+  display: flex;
+  max-width: 100%;
 }
 
 #contact {
@@ -176,10 +174,12 @@
 .contact-list {
   display: flex;
   list-style: none;
+  max-width: 100%;
   margin: 20px 0; 
 }
 
 .contact-list .head-3 {
+  display: flex;
   color: rgb(157, 191, 229);
   font-size: 2.5rem;
 }
@@ -194,10 +194,19 @@
   transition: all .5s ease;
 } 
 
+.list {
+  max-width: 100%;
+}
+
+.list li a {
+  max-width: 100%;
+}
+
 .list a {
   
   font-size: 1.5rem;
   font-weight: bold;
+  max-width: 100%;
   color: white;
   padding: 8px 25px;
   transition: all .5s ease;
@@ -229,7 +238,7 @@ color: white;
 
 
 
-
+/* 
 @media screen and (max-width: 992px) {
   .navbar {
     background-color: whitesmoke;
@@ -268,4 +277,4 @@ color: white;
     margin: auto;
     width: auto;
   }
-}
+} */
