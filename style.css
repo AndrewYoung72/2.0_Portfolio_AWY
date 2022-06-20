@@ -147,6 +147,14 @@
   padding: 20px;
   margin-bottom: 50px;
 }
+#Resume div {
+  /* display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-style: outset;
+  padding: 20px;
+  margin-bottom: 50px; */
+}
 
 #Resume .head-2 {
   color: rgb(157, 191, 229);
