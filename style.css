@@ -239,43 +239,37 @@ color: white;
 
 
 
-
-@media screen and (min-width: 40em) {
-  .navbar {
-    background-color: whitesmoke;
-    margin: auto;
-    width: auto;
+ @media screen and (max-width: 568px) {
+   .list li a {
+     font-size: 18px;
+   }
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #about-me {
-    margin: auto;
-    width: auto;
+    display: flex;
+    flex-direction: column;
   }
-  #work {
-    margin: auto;
-    width: auto;
+  #picture {
+    display: flex;
+    flex-direction: column; 
   }
-  #Resume {
-    margin: auto;
-    width: auto;
+  .videos img {
+    width: 80% !important;
+    height: auto !important;
   }
-}
 
-@media screen and (min-width: 40em) {
-  .navbar {
-    background-color: whitesmoke;
-    margin: auto;
-    width: auto;
+  .contact-list {
+    display: flex;
+    flex-direction: column; 
   }
-  #about-me {
-    margin: auto;
-    width: auto;
-  }
-  #work {
-    margin: auto;
-    width: auto;
-  }
-  #Resume {
-    margin: auto;
-    width: auto;
+ 
+} 
+
+@media screen and (max-width: 300px) {
+  .list li a {
+    font-size: 6px;
   }
 }
